@@ -13,8 +13,10 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			author: z.string().default('Team'),
 			category: z.enum(['Mindfulness', 'Meditation', 'Spirituality', 'Wellness', 'Practice']).default('Mindfulness'),
 			tags: z.array(z.string()).default([]),
+			draft: z.boolean().default(false),
 		}),
 });
 
