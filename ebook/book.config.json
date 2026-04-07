@@ -1,0 +1,24 @@
+{
+  "title": "Achtsamkeit, Meditation und Spiritualität",
+  "subtitle": "Ein Wegweiser zur inneren Stille",
+  "author": "Nordstern Verlag",
+  "publisher": "Nordstern Verlag",
+  "language": "en",
+  "description": "A collection of essays on mindfulness, meditation, and spirituality — guiding readers toward presence, breath awareness, and the transformative power of silence.",
+  "cover": "cover.html",
+  "outputDir": "../dist/ebook",
+  "chapters": [
+    {
+      "file": "../src/content/blog/beginning-mindfulness-practice.md",
+      "chapterTitle": "Beginning Your Mindfulness Practice"
+    },
+    {
+      "file": "../src/content/blog/breath-meditation-guide.md",
+      "chapterTitle": "A Complete Guide to Breath Meditation"
+    },
+    {
+      "file": "../src/content/blog/sacred-silence.md",
+      "chapterTitle": "The Sacred Practice of Silence"
+    }
+  ]
+}

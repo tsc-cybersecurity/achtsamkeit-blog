@@ -9,7 +9,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "ebook": "node ebook/build.mjs",
+    "ebook:epub": "node ebook/build.mjs --epub",
+    "ebook:pdf": "node ebook/build.mjs --pdf"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",
@@ -17,6 +20,9 @@
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vercel": "^10.0.4",
     "astro": "^6.1.4",
+    "epub-gen-memory": "^1.0.11",
+    "marked": "^15.0.7",
+    "puppeteer": "^24.4.0",
     "sharp": "^0.34.3"
   }
 }
